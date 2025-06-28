@@ -11,11 +11,11 @@ module.exports = {
         forum: ['"Forum"', 'monospace'],
       },
       colors: {
-        'lightest': '#ffefe9', // (232,232,232)
-        'light': '#ffcbba',    // (183,183,183)
+        'lightest': '#e8e8e8', // (232,232,232)
+        'light': '#b7b7b7',    // (183,183,183)
         'medium': '#8c8c8c',   // (140,140,140)
-        'dark': '#221d1b',     // (82,82,82)
-        'black': '#9c4b2a',    // (0,0,0)
+        'dark': '#000000',     // (82,82,82)
+        'black': '#ffa487',    // (0,0,0)
       },
     },
   },

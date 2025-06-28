@@ -34,9 +34,9 @@ function Contact() {
     };
 
     return (
-        <div className="relative min-h-screen flex items-start sm:items-center justify-center font-forum bg-lightest dark:bg-light border-2 shadow-[-11px_1px_31px_-13px_#000000] p-4">
-            <div className="max-w-6xl w-full sm:px-0 lg:px-0 bg-lightest dark:bg-dark">
-                <div className="shadow-[4px_20px_33px_0px_#000000] border-2 overflow-hidden rounded-lg">
+        <div className="relative min-h-screen flex items-start sm:items-center justify-center font-forum bg-dark dark:bg-light border-2 shadow-[-11px_1px_31px_-13px_#000000] p-4">
+            <div className="max-w-6xl w-full sm:px-0 lg:px-0 bg-white dark:bg-dark">
+                <div className="shadow-[24px_20px_33px_0px_#000000] border-2 overflow-hidden rounded-lg">
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4  place-items-center">
                         {/* Contact Information */}
                         <section className="p-6 md:p-10 border-b md:border-b-0 md:border-r-2 ">
@@ -74,7 +74,7 @@ function Contact() {
                                         required
                                         value={formData.name}
                                         onChange={handleChange}
-                                        className="mt-1 py-2 px-3 block w-full rounded-md border border-gray-300 dark:border-gray-700 bg-lightest dark:bg-light  text-dark  font-semibold shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                                        className="mt-1 py-2 px-3 block w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 font-semibold shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                                     />
                                 </div>
                                 <div>
@@ -87,7 +87,7 @@ function Contact() {
                                         required
                                         value={formData.email}
                                         onChange={handleChange}
-                                        className="mt-1 py-2 px-3 block w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-light  text-gray-800 dark:text-gray-200 font-semibold shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                                        className="mt-1 py-2 px-3 block w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 font-semibold shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                                     />
                                 </div>
                                 <div>
@@ -99,14 +99,14 @@ function Contact() {
                                         placeholder="Telephone Number"
                                         value={formData.phone}
                                         onChange={handleChange}
-                                        className="mt-1 py-2 px-3 block w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-light  text-gray-800 dark:text-gray-200 font-semibold shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
+                                        className="mt-1 py-2 px-3 block w-full rounded-md border border-gray-300 dark:border-gray-700 bg-white dark:bg-gray-800 text-gray-800 dark:text-gray-200 font-semibold shadow-sm focus:outline-none focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm"
                                     />
                                 </div>
 
                                 <div>
                                     <button
                                         type="submit"
-                                        className="w-full py-2 px-4 rounded-md bg-medium dark:bg-black text-text-light dark:text-text-dark font-semibold shadow-md hover:opacity-80 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                                        className="w-full py-2 px-4 rounded-md bg-dark dark:bg-light text-text-light dark:text-text-dark font-semibold shadow-md hover:opacity-80 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
                                     >
                                         Submit
                                     </button>

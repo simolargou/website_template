@@ -72,7 +72,7 @@ export default function Nav({ darkMode, toggleDarkMode }) {
         aria-hidden={!isOpen} // Add aria-hidden for accessibility
       >
         <Link to="/" className="block px-3 py-2 rounded hover:text-white hover:bg-black focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" onClick={handleToggleMenu}>Home</Link>  {/* Used Link, added focus, close on click */}
-        <Link to="/contact" className="block px-3 py-2 rounded hover:text-white hover:bg-black focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" onClick={handleToggleMenu}>Kontakt</Link>  {/* Used Link, added focus, close on click */}
+        <Link to="/contact" className="block px-3 py-2 rounded hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2" onClick={handleToggleMenu}>Kontakt</Link>  {/* Used Link, added focus, close on click */}
 
         {/* 🌙 Dark Mode Button (Mobile) */}
         <button
